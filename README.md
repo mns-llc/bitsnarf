@@ -1,6 +1,8 @@
 bitsnarf
 ===========
 
+[![Build Status](https://travis-ci.org/mns-llc/bitsnarf.svg?branch=master)](https://travis-ci.org/mns-llc/bitsnarf)
+
 A fork of [CommonRegex](https://github.com/madisonmay/CommonRegex) by [Madison May](https://github.com/madisonmay) which finds useful information in English/US strings using regular expressions. bitsnarf has an expanded set of regexes to work with, a more structured naming convention, and *extremely* limited support for common international formats.
 
 Notably, this repository adds a number of low-confidence regular expressions to try to sniff out Personally Identifiable Information (PII) that would be wasteful in CommonRegex (ex. [very approximate name detection](https://stackoverflow.com/questions/7653942/find-names-with-regular-expression)).
